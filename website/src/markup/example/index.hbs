@@ -1,0 +1,45 @@
+<div id="example">
+  <header>
+    <h1>Sass 😍 Handlebars</h1>
+  </header>
+  <main>
+    <div id="snippets">
+      <h2>Scripts</h2>
+      <div>
+        {{> code title="Bundle with yarn" code="yarn build"}}
+        {{> code title="Bundle with npm" code="npm run build"}}
+      </div>
+    </div>
+    <div id="inside">
+      <h2>Whats inside?</h2>
+      <p class="content">
+        Webpack configuration using <code>css-loader</code>, <code>sass-loader</code> and <code>style-loader</code>
+        to handle your style files. Also brings <code>handlebars-loader</code> so you are able to
+        take advantage of the power of handlebars to build your layout!
+      </p>
+    </div>
+    <div id="post-css">
+      <h2>PostCSS</h2>
+      <p class="content">
+        <strong>PostCSS</strong> is ready to use, in order to add plugins you must create a file called
+        <code>postcss.config.js</code>, read more in the <strong>PostCSS</strong> official website!
+        <a href="https://www.postcss.parts/" target="_blank">Visit PostCSS website</a>.
+      </p>
+    </div>
+    <div id="bundle">
+      <h2>Bundle</h2>
+      <p class="content">
+        When running either <code>yarn build</code> or <code>npm run build</code>, 3 files will be generated in your
+        <code>dist/</code> directory.
+        These files contains all your markdown in one place, feel free to open <code>index.html</code> either will your
+        favorite browser or with an <code>HTTP</code> server!
+                {{#> code-block}}
+./dist/
+├── index.html
+├── main.js
+├── main.css
+        {{/ code-block}}
+      </p>
+    </div>
+  </main>
+</div>

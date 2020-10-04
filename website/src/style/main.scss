@@ -1,0 +1,9 @@
+@import './example/main.scss';
+
+body {
+  font-family: sans-serif;
+  // keep default font-size in 16px to have
+  // predictable dimensions with rem/rm units
+  font-size: 16px;
+  margin: 0;
+}

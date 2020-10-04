@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+$primary: #2f394e;
+$complement: #434a58;
+
+@mixin section-style {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#example {
+  background-color: #2f394e;
+  font-family: 'Roboto', sans-serif;
+
+  h1, h2, h3 {
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+  }
+
+  header {
+    align-items: center;
+    background-color: $complement;
+    box-sizing: border-box;
+    display: flex;
+    height: 58px;
+    justify-content: flex-start;
+    padding: 0 1rem;
+  }
+
+  code {
+    background-color: #cccccc;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    padding: .1rem .2rem;
+  }
+
+  .code-snippet {
+    background-color: #ffffff;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    color: #000000;
+    display: inline-block;
+    line-height: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+    white-space: pre-wrap;
+
+    h3 {
+      color: inherit;
+    }
+
+    code {
+      background-color: #333333;
+      box-sizing: border-box;
+      color: #ffffff;
+      display: inline-block;
+      padding: .5rem;
+      width: 100%;
+    }
+  }
+
+  .content {
+    background-color: #ffffff;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 1.8rem;
+    padding: .5rem;
+    width: 60%;
+  }
+
+  #snippets, #inside, #post-css, #bundle {
+    @include section-style();
+  }
+}
