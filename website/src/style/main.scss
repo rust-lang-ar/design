@@ -1,9 +1,12 @@
-@import './example/main.scss';
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap');
+@import './header.scss';
 
 body {
-  font-family: sans-serif;
-  // keep default font-size in 16px to have
-  // predictable dimensions with rem/rm units
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Secular One', sans-serif;
 }

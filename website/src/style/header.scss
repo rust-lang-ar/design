@@ -1,0 +1,36 @@
+#header {
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  padding: .5rem 1rem;
+
+  #wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80vw;
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      ul {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+          margin-right: 1rem;
+
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

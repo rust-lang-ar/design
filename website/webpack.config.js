@@ -57,7 +57,7 @@ module.exports = {
       }
     }), 
     new HtmlWebpackPlugin({
-      title: 'Sass 😍 Handlebars | Fix this in the webpack.config.js file!',
+      title: 'Rust Argentina',
       template: './src/markup/index.hbs'
     }),
     new MiniCssExtractPlugin({
