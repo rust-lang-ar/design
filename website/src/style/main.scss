@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&family=Roboto+Mono&display=swap');
-@import './header.scss';
-@import './home.scss';
-@import './footer.scss';
+
+
+@import './components/icon.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+
+@import './layout/home.scss';
 
 body {
   font-family: 'Rubik', sans-serif;

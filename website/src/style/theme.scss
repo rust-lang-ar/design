@@ -1,0 +1,9 @@
+$black: #111111;
+$white: #FFFFFF;
+
+@mixin landing-section {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 65px 1rem 0 1rem;
+  width: 100%;
+}

@@ -7,14 +7,10 @@
   <title>{{htmlWebpackPlugin.options.title}}</title>
 </head>
 <body>
-  {{> header/index}}
+  {{> components/header/index}}
   <main>
-    {{> home/index}}
-    {{> meetups/index}}
-    {{> sponsors/index}}
-    {{> about/index}}
-    {{> members/index}}
+    {{> layout/home}}
   </main>
-  {{> footer/index}}
+  {{> components/footer}}
 </body>
 </html>
